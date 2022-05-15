@@ -5,23 +5,21 @@ const slide3 = require("../img/slide-3.jpg");
 
 export default function Carousel() {
   return (
-    <div className="Carousel-container">
-      <div className="Carousel">
-        <div
-          id="carouselExampleSlidesOnly"
-          className="carousel slide"
-          data-ride="carousel"
-        >
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img className="d-block w-100" src={slide1} alt="First slide" />
-            </div>
-            <div className="carousel-item">
-              <img className="d-block w-100" src={slide2} alt="Second slide" />
-            </div>
-            <div className="carousel-item">
-              <img className="d-block w-100" src={slide3} alt="Third slide" />
-            </div>
+    <div className="Carousel">
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src={slide1} class="d-block w-100" alt="slide1" />
+          </div>
+          <div class="carousel-item">
+            <img src={slide2} class="d-block w-100" alt="slide2" />
+          </div>
+          <div class="carousel-item">
+            <img src={slide3} class="d-block w-100" alt="slide3" />
           </div>
         </div>
       </div>

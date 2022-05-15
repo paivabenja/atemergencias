@@ -1,14 +1,16 @@
 .App {
 }
 
-.Carousel-container {
-  display: flex;
-  align-content: center;
-  justify-content: center;
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .Carousel {
-  margin-top: 2%;
+  z-index: 0;
+  padding: 0;
   justify-content: center;
-  width: 80%;
+  width: 100%;
 }
