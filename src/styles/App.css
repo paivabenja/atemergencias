@@ -1,4 +1,11 @@
-.App {
+.logo {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(248, 249, 250);
+}
+
+.icon {
+  display: inline-flex;
 }
 
 .navbar {

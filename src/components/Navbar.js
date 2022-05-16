@@ -34,7 +34,9 @@ export default () => {
           </ul>
         </div>
       </div>
-      <img src={icon} height="40" />
+      <div className="icon">
+        <img src={icon} height="40" className="icon" />
+      </div>
     </nav>
   );
 };
