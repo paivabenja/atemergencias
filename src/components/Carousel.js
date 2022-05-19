@@ -13,13 +13,13 @@ export default function Carousel() {
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src={slide1} class="d-block w-100" alt="slide1" />
+            <img src={slide1} class="d-block w-100 brg-50" alt="slide1" />
           </div>
           <div class="carousel-item">
-            <img src={slide2} class="d-block w-100" alt="slide2" />
+            <img src={slide2} class="d-block w-100 brg-50" alt="slide2" />
           </div>
           <div class="carousel-item">
-            <img src={slide3} class="d-block w-100" alt="slide3" />
+            <img src={slide3} class="d-block w-100 brg-50" alt="slide3" />
           </div>
         </div>
       </div>
