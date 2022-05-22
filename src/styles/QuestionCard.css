@@ -1,20 +1,29 @@
 .card {
-  margin: 4% 2%;
-  padding: 2% 4%;
-  border: none;
+  transition-delay: 100ms;
+  transition-duration: 400ms;
+  padding: 0;
+  margin: 8% 8%;
+  border: solid 1px #000;
   border-radius: 7.5px;
   background-color: #ddd;
   width: 30%;
 }
 
+.card:hover {
+  transition-delay: 100ms;
+  transition-duration: 400ms;
+  transform: scale(105%);
+}
+
 .card div {
   text-align: center;
-  padding: 5px;
+  padding: 0px;
 }
 
 .card img {
+  margin: 0;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 7.5px 7.5px 0 0;
 }
 
 @media only screen and (max-width: 600px) {
