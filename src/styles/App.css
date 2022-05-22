@@ -30,11 +30,31 @@
   margin: 0;
 }
 
-.brg-50 {
-  filter: brightness(90%);
+.carousel-item img {
+  filter: brightness(50%);
 }
 
-.nav-link:hover .active {
-  transition-duration: 200ms;
-  color: #aaa;
+.nav-link:hover {
+  transition-duration: 400ms;
+  transform: scale(105%);
+  background-color: #ddd;
+}
+
+.carousel-caption h5 {
+  font-size: 2em;
+}
+
+.carousel-caption p {
+  font-size: 1.5em;
+}
+
+.CardsContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  .Carousel {
+    height: 70%;
+  }
 }

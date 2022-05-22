@@ -1,0 +1,28 @@
+.card {
+  margin: 4% 2%;
+  padding: 2% 4%;
+  border: none;
+  border-radius: 7.5px;
+  background-color: #ddd;
+  width: 30%;
+}
+
+.card div {
+  text-align: center;
+  padding: 5px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    border-radius: 4px;
+  }
+
+  .card img {
+    border-radius: 3px;
+  }
+}

@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./Navbar";
 import "../styles/App.css";
 import Carousel from "./Carousel";
+import QuestionCard from "./QuestionCard";
+const emVsUrg = require("../img/emergenciaVsUrgencia.png");
 
 const App = () => {
   const logo = require("../img/a-tiempo-logo.png");
@@ -13,7 +15,12 @@ const App = () => {
       </div>
       <Navbar />
       <Carousel></Carousel>
-      <img src={emergenciasTelefono} height="100" alt="" />
+      {/* <img src={emergenciasTelefono} height="100" alt="" /> */}
+      <div className="CardsContainer">
+        <QuestionCard img={emVsUrg} titulo="titulo 1" subtitulo="subtitulo" />
+        <QuestionCard img={emVsUrg} titulo="titulo 1" subtitulo="subtitulo" />
+        <QuestionCard img={emVsUrg} titulo="titulo 1" subtitulo="subtitulo" />
+      </div>
     </div>
   );
 };
