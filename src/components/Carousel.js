@@ -13,7 +13,11 @@ export default function Carousel() {
       >
         <div className="carousel-inner">
           <div className="carousel-item active brg-50">
-            <img src={slide1} className="d-block w-100" alt="slide1" />
+            <img
+              src={slide1}
+              className="d-block w-100 carouselImg"
+              alt="slide1"
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>1First slide label</h5>
               <p>
@@ -22,7 +26,11 @@ export default function Carousel() {
             </div>
           </div>
           <div className="carousel-item brg-50">
-            <img src={slide2} className="d-block w-100 " alt="slide2" />
+            <img
+              src={slide2}
+              className="d-block w-100 carouselImg"
+              alt="slide2"
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>2First slide label</h5>
               <p>
@@ -31,7 +39,11 @@ export default function Carousel() {
             </div>
           </div>
           <div className="carousel-item brg-50">
-            <img src={slide3} className="d-block w-100" alt="slide3" />
+            <img
+              src={slide3}
+              className="d-block w-100 carouselImg"
+              alt="slide3"
+            />
             <div className="carousel-caption d-none d-md-block">
               <h5>3First slide label</h5>
               <p>

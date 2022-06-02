@@ -19,17 +19,17 @@ export default () => {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" href="/">
+              <a className="nav-link active" href="/servicios">
                 Servicios
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active " href="/">
+              <a className="nav-link active " href="/aportes">
                 Aportes
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="/">
+              <a className="nav-link active" href="/contacto">
                 Contacto
               </a>
             </li>
@@ -37,7 +37,9 @@ export default () => {
         </div>
       </div>
       <div className="icon">
-        <img src={icon} height="40" className="icon" alt="" />
+        <a href="/">
+          <img src={icon} height="40" className="icon" alt="" />
+        </a>
       </div>
     </nav>
   );

@@ -1,11 +1,13 @@
 .logo {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   background-color: rgba(248, 249, 250);
+  padding: 0px 30px;
+  padding-top: 10px;
 }
 
 .icon {
-  display: inline-flex;
+  align-self: flex-start;
 }
 
 .navbar {
@@ -37,13 +39,13 @@
 .nav-link {
   transition-delay: 100ms;
   transition-duration: 400ms;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 .nav-link:hover {
   transition-delay: 100ms;
   transition-duration: 400ms;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.09);
 }
 
 .carousel-caption h5 {
@@ -57,6 +59,11 @@
 .CardsContainer {
   display: flex;
   justify-content: space-around;
+}
+
+.carouselImg {
+  height: 500px;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 600px) {
